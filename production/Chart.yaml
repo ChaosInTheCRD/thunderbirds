@@ -1,0 +1,7 @@
+apiVersion: v2
+name: prometheus
+version: 1.0.0
+dependencies:
+  - name: prometheus
+    version: 15.5.3
+    repository: https://github.com/chaosinthecrd/thunderbirds-prometheus/tree/main/charts/prometheus
